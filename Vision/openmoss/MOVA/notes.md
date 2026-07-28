@@ -176,3 +176,6 @@ Noise                     Data
 
 
 5.Attention(Q,K,V)就是Q矩阵的对象应该关注KV对象的哪些token
+
+<img width="1312" height="1199" alt="image" src="https://github.com/user-attachments/assets/7b912c40-e51b-4f68-90d1-a72c6a02e926" />
+
