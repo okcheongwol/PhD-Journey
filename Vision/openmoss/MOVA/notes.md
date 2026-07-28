@@ -180,7 +180,7 @@ Noise                     Data
 <img width="1312" height="1199" alt="image" src="https://github.com/user-attachments/assets/7b912c40-e51b-4f68-90d1-a72c6a02e926" />
 
 
-6.velocity就是当前带噪 latent 往真实 latent 移动的方向和速度
+6.velocity就是当前带噪 latent 往真实 latent 移动的方向和速度。velocity不是“噪声”，而是从噪声状态向真实数据状态移动的方向。训练时因为真实latent和人为采样的噪声都已知，所以真实velocity可以直接计算；模型学习根据带噪latent和条件预测这个velocity，推理时再利用预测的velocity逐步把随机噪声移动到目标视频和音频latent。
 <img width="873" height="576" alt="image" src="https://github.com/user-attachments/assets/cd8ae548-d620-4ae3-a8c3-d7f70567dbcc" />
 
 
