@@ -179,3 +179,8 @@ Noise                     Data
 
 <img width="1312" height="1199" alt="image" src="https://github.com/user-attachments/assets/7b912c40-e51b-4f68-90d1-a72c6a02e926" />
 
+
+6.velocity就是当前带噪 latent 往真实 latent 移动的方向和速度
+<img width="873" height="576" alt="image" src="https://github.com/user-attachments/assets/cd8ae548-d620-4ae3-a8c3-d7f70567dbcc" />
+
+
